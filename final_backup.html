@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+<body>
+<script> 
+  var aud = new Audio('sounds/classical1.mp3');
+  
+  function start(n) {
+    if (n == 1) {
+      var playBtn = document.getElementById("play");
+      playBtn.style.display = "none";
+      var pauseBtn = document.getElementById("pause");
+      pauseBtn.style.display = "block";
+      var pauseBtn = document.getElementById("container");
+      pauseBtn.style.display = "block";
+      aud.play();
+    }
+    else {
+      aud.pause();
+      var playBtn = document.getElementById("play");
+      playBtn.style.display = "inline";
+      var pauseBtn = document.getElementById("pause");
+      pauseBtn.style.display = "none";
+    }
+  }
+</script>
+<h2 class="w3-center">Music 251 Test</h2>
+
+<div id="container" class="w3-content w3-display-container"style="width:640px;height:480px">
+  <img id="myslide" src="slides/slides-page-001.jpg" style="width:100%">
+  <!--<img class="mySlides" src="slides/1.jpg" style="width:100%">
+  <img class="mySlides" src="slides/2.jpg" style="width:100%">
+  <img class="mySlides" src="slides/3.jpg" style="width:100%">
+  <img class="mySlides" src="../../images/work.jpg" style="width:100%">-->
+
+  <div class="w3-display-bottommiddle">
+    <button class="w3-button w3-black" onclick="plusDivs(-1)">A</button>
+    <button class="w3-button w3-black" onclick="plusDivs(1)">B</button>
+  </div>
+
+</div>
+<button id="play" class="w3-button w3-black w3-display-bottomright" onclick="start(1);">Start Test</button>
+<!--<button class="w3-button w3-black" onclick="start(0);">Pause</button>-->
+<button id="pause" class="w3-button w3-black w3-display-bottomright" onclick="start(0);" style="display:none">End Test</button>
+
+<script>
+var slideIndex = 1;
+var maxSlides = 31;
+//&#10094 LEFT 
+//&#10095 RIGHT
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementById("myslide");
+  if (n > maxSlides) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  /*for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }*/
+  var filename = "slides/slides-page-"+("000" + n).slice(-3)+ ".jpg";
+  x.src =filename;  
+}
+</script>
+
+</body>
+</html>

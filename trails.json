@@ -1,0 +1,35 @@
+myTrials = `[
+	{
+		"trial": ["RC_a", "AT_c", "RC_b", "AT_d"],
+		"music": ["", "", "sounds/classical1.mp3", "sounds/edm2.mp3"]
+	},
+	{
+		"trial": ["RC_a", "AT_c", "RC_b", "AT_d"],
+		"music": ["", "", "sounds/edm2.mp3", "sounds/classical1.mp3"]
+	},
+	{
+		"trial": ["RC_a", "AT_d", "RC_b", "AT_c"],
+		"music": ["", "", "sounds/classical1.mp3", "sounds/edm2.mp3"]
+	},
+	{
+		"trial": ["RC_a", "AT_d", "RC_b", "AT_c"],
+		"music": ["", "", "sounds/classical1.mp3", "sounds/edm2.mp3"]
+	},
+	{
+		"trial": ["RC_b", "AT_c", "RC_a", "AT_d"],
+		"music": ["", "", "sounds/classical1.mp3", "sounds/edm2.mp3"]
+	},
+	{
+		"trial": ["RC_b", "AT_c", "RC_a", "AT_d"],
+		"music": ["", "", "sounds/edm2.mp3", "sounds/classical1.mp3"]
+	},
+	{
+		"trial": ["RC_b", "AT_d", "RC_a", "AT_c"],
+		"music": ["", "", "sounds/classical1.mp3", "sounds/edm2.mp3"]
+	},
+	{
+		"trial": ["RC_b", "AT_d", "RC_a", "AT_c"],
+		"music": ["", "", "sounds/classical1.mp3", "sounds/edm2.mp3"]
+	},
+	
+]`;

@@ -1,0 +1,119 @@
+var RC_a = `{
+	"items": 
+	[
+		{
+			"image":"slides/slide-rca-001.jpg",
+		 	"options": ["A", "B", "C", "D"],
+		 	"correct": 1},
+		{
+			"question": "slides/slide-rca-002.jpg",
+			"options": ["A", "B", "C", "D"],
+			"correct": 0
+		},
+		{
+			"question": "slides/slide-rca-003.jpg",
+			"options": ["A", "B", "C", "D"],
+			"correct": 2
+		}
+		{
+			"question": "slides/slide-rca-004.jpg",
+			"options": ["A", "B", "C", "D"],
+			"correct": 2
+		}
+		{
+			"question": "slides/slide-rca-005.jpg",
+			"options": ["A", "B", "C", "D"],
+			"correct": 2
+		}
+	]
+}`;
+
+var RC_b = `{
+	"items": 
+	[
+		{
+			"image":"slides/slide-rcb-001.jpg",
+		 	"options": ["A", "B", "C", "D"],
+		 	"correct": 1},
+		{
+			"question": "slides/slide-rcb-002.jpg",
+			"options": ["A", "B", "C", "D"],
+			"correct": 0
+		},
+		{
+			"question": "slides/slide-rcb-003.jpg",
+			"options": ["A", "B", "C", "D"],
+			"correct": 2
+		}
+		{
+			"question": "slides/slide-rcb-004.jpg",
+			"options": ["A", "B", "C", "D"],
+			"correct": 2
+		}
+		{
+			"question": "slides/slide-rcb-005.jpg",
+			"options": ["A", "B", "C", "D"],
+			"correct": 2
+		}
+	]
+}`;
+
+var AT_c = `{
+	"items": 
+	[
+		{
+			"image":"slides/slide-atc-001.jpg",
+		 	"options": ["A", "B", "C", "D"],
+		 	"correct": 1},
+		{
+			"question": "slides/slide-atc-002.jpg",
+			"options": ["A", "B", "C", "D"],
+			"correct": 0
+		},
+		{
+			"question": "slides/slide-atc-003.jpg",
+			"options": ["A", "B", "C", "D"],
+			"correct": 2
+		}
+		{
+			"question": "slides/slide-atc-004.jpg",
+			"options": ["A", "B", "C", "D"],
+			"correct": 2
+		}
+		{
+			"question": "slides/slide-atc-005.jpg",
+			"options": ["A", "B", "C", "D"],
+			"correct": 2
+		}
+	]
+}`;
+
+var AT_d = `{
+	"items": 
+	[
+		{
+			"image":"slides/slide-atd-001.jpg",
+		 	"options": ["A", "B", "C", "D"],
+		 	"correct": 1},
+		{
+			"question": "slides/slide-atd-002.jpg",
+			"options": ["A", "B", "C", "D"],
+			"correct": 0
+		},
+		{
+			"question": "slides/slide-atd-003.jpg",
+			"options": ["A", "B", "C", "D"],
+			"correct": 2
+		}
+		{
+			"question": "slides/slide-atd-004.jpg",
+			"options": ["A", "B", "C", "D"],
+			"correct": 2
+		}
+		{
+			"question": "slides/slide-atd-005.jpg",
+			"options": ["A", "B", "C", "D"],
+			"correct": 2
+		}
+	]
+}`;
