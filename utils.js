@@ -17,6 +17,32 @@ function setup() {
   }
 }
 
+function openFullscreen() {
+  var elem = document.getElementById("fulltext");
+  if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+  } else if (elem.mozRequestFullScreen) { /* Firefox */
+    elem.mozRequestFullScreen();
+  } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
+    elem.webkitRequestFullscreen();
+  } else if (elem.msRequestFullscreen) { /* IE/Edge */
+    elem.msRequestFullscreen();
+  }
+}
+
+// Exit fullscreen - Doesn't work!
+function exitFullScreen(){
+    if (document.exitFullscreen) {
+      document.exitFullscreen();
+    } else if (document.msExitFullscreen) {
+      document.msExitFullscreen();
+    } else if (document.mozCancelFullScreen) {
+      document.mozCancelFullScreen();
+    } else if (document.webkitExitFullscreen) {
+      document.webkitExitFullscreen();
+    }
+}
+
 function logResults(key, value) {
   if (resultsLog[key] === undefined) {
     resultsLog[key] = [value];
@@ -98,8 +124,12 @@ function start(n) {
     currSectionIdx = 0;
     setCurrentSection();
     showSection(currentSection);
+    openFullscreen();
   } else { // End the test.
     aud.pause();
+    var groupId = document.getElementById("group");
+    groupId.style.display = "none";
+    exitFullScreen();
     currSectionIdx = 0;
     setCurrentSection();
     showSection(currentSection);
@@ -129,7 +159,10 @@ function addAnswer(n, opt) {
   var correct = currentSection.items[slideIndex-1].correct;
   var options = currentSection.items[slideIndex-1].options;
   if (correct == "group") {
-    alert("You are in group " + (opt+1));
+    //alert("You are in group " + (opt+1));
+    var groupId = document.getElementById("group");
+    groupId.innerHTML = "Group " + (opt + 1);
+    groupId.style.display = "block"
     trial = trials[opt].trial;
     music = trials[opt].music;
     setup();

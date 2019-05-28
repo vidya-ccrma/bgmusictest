@@ -7,29 +7,64 @@ RC_a = `[ {
 		 	"correct": -1
 		},
 		{
-			"image":"slides/slides-page-004.jpg",
-		 	"options": ["Apple", "Banana", "Carrot", "Delhi"],
+			"image":"slides/synonym1.png",
+		 	"options": ["A", "B", "C"],
 		 	"correct": 1
 		},
 		{
-			"image": "slides/slides-page-005.jpg",
-			"options": ["Alpha", "Beta"],
-			"correct": 0
+			"image":"slides/synonym2.png",
+		 	"options": ["A", "B", "C"],
+		 	"correct": 2
 		},
 		{
-			"image": "slides/slides-page-006.jpg",
-			"options": ["A", "B", "C", "D"],
-			"correct": 2
+			"image":"slides/synonym3.png",
+		 	"options": ["A", "B", "C"],
+		 	"correct": 0
 		},
 		{
-			"image": "slides/slides-page-007.jpg",
-			"options": ["A", "B", "C", "D"],
-			"correct": 2
+			"image":"slides/synonym4.png",
+		 	"options": ["A", "B", "C"],
+		 	"correct": 2
 		},
 		{
-			"image": "slides/slides-page-008.jpg",
-			"options": ["A", "B", "C", "D"],
-			"correct": 2
+			"image":"slides/synonym5.png",
+		 	"options": ["A", "B", "C"],
+		 	"correct": 0
+		},
+		{
+			"image":"slides/synonym7.png",
+		 	"options": ["A", "B", "C"],
+		 	"correct": 2
+		},
+		{
+			"image":"slides/antonym1.png",
+		 	"options": ["A", "B", "C"],
+		 	"correct": 0
+		},
+		{
+			"image":"slides/antonym2.png",
+		 	"options": ["A", "B", "C"],
+		 	"correct": 1
+		},
+		{
+			"image":"slides/antonym3.png",
+		 	"options": ["A", "B", "C"],
+		 	"correct": 2
+		},
+		{
+			"image":"slides/antonym4.png",
+		 	"options": ["A", "B", "C"],
+		 	"correct": 1
+		},
+		{
+			"image":"slides/antonym5.png",
+		 	"options": ["A", "B", "C"],
+		 	"correct": 0
+		},
+		{
+			"image":"slides/antonym7.png",
+		 	"options": ["A", "B", "C"],
+		 	"correct": 2
 		},
 		{
 			"image": "slides/slides-page-009.jpg",
@@ -46,30 +81,66 @@ RC_b = `[ {
 			"image":"slides/slides-page-010.jpg",
 		 	"options": ["&#10095"],
 		 	"correct": -1
-		 },
-		{
-			"image":"slides/slides-page-011.jpg",
-		 	"options": ["A", "B", "C", "D"],
-		 	"correct": 1},
-		{
-			"image": "slides/slides-page-012.jpg",
-			"options": ["A", "B", "C", "D"],
-			"correct": 0
 		},
 		{
-			"image": "slides/slides-page-013.jpg",
-			"options": ["A", "B", "C", "D"],
-			"correct": 2
+			"image":"slides/synonym8.png",
+		 	"options": ["A", "B", "C"],
+		 	"correct": 2
 		},
 		{
-			"image": "slides/slides-page-014.jpg",
-			"options": ["A", "B", "C", "D"],
-			"correct": 2
+			"image":"slides/synonym9.png",
+		 	"options": ["A", "B", "C"],
+		 	"correct": 1
 		},
 		{
-			"image": "slides/slides-page-015.jpg",
-			"options": ["A", "B", "C", "D"],
-			"correct": 2
+			"image":"slides/synonym10.png",
+		 	"options": ["A", "B", "C"],
+		 	"correct": 2
+		},
+		{
+			"image":"slides/synonym11.png",
+		 	"options": ["A", "B", "C"],
+		 	"correct": 2
+		},
+		{
+			"image":"slides/synonym12.png",
+		 	"options": ["A", "B", "C"],
+		 	"correct": 1
+		},
+		{
+			"image":"slides/synonym13.png",
+		 	"options": ["A", "B", "C"],
+		 	"correct": 1
+		},
+		{
+			"image":"slides/antonym8.png",
+		 	"options": ["A", "B", "C"],
+		 	"correct": 0
+		},
+		{
+			"image":"slides/antonym9.png",
+		 	"options": ["A", "B", "C"],
+		 	"correct": 1
+		},
+		{
+			"image":"slides/antonym10.png",
+		 	"options": ["A", "B", "C"],
+		 	"correct": 0
+		},
+		{
+			"image":"slides/antonym11.png",
+		 	"options": ["A", "B", "C"],
+		 	"correct": 2
+		},
+		{
+			"image":"slides/antonym12.png",
+		 	"options": ["A", "B", "C"],
+		 	"correct": 1
+		},
+		{
+			"image":"slides/antonym13.png",
+		 	"options": ["A", "B", "C"],
+		 	"correct": 2
 		},
 		{
 			"image":"slides/slides-page-016.jpg",
@@ -85,30 +156,67 @@ AT_c = `[ {
 		{
 			"image":"slides/slides-page-017.jpg",
 		 	"options": ["&#10095"],
-		 	"correct": -1},
+		 	"correct": -1
+		},
 		{
-			"image":"slides/slides-page-018.jpg",
+			"image":"slides/math1.png",
 		 	"options": ["A", "B", "C", "D"],
-		 	"correct": 1},
-		{
-			"image": "slides/slides-page-019.jpg",
-			"options": ["A", "B", "C", "D"],
-			"correct": 0
+		 	"correct": 3
 		},
 		{
-			"image": "slides/slides-page-020.jpg",
-			"options": ["A", "B", "C", "D"],
-			"correct": 2
+			"image":"slides/math3.png",
+		 	"options": ["A", "B", "C", "D"],
+		 	"correct": 1
 		},
 		{
-			"image": "slides/slides-page-021.jpg",
-			"options": ["A", "B", "C", "D"],
-			"correct": 2
+			"image":"slides/math5.png",
+		 	"options": ["A", "B", "C", "D"],
+		 	"correct": 1
 		},
 		{
-			"image": "slides/slides-page-022.jpg",
-			"options": ["A", "B", "C", "D"],
-			"correct": 2
+			"image":"slides/math7.png",
+		 	"options": ["A", "B", "C", "D"],
+		 	"correct": 2
+		},
+		{
+			"image":"slides/math9.png",
+		 	"options": ["A", "B", "C", "D"],
+		 	"correct": 1
+		},
+		{
+			"image":"slides/math11.png",
+		 	"options": ["A", "B", "C", "D"],
+		 	"correct": 0
+		},
+		{
+			"image":"slides/math13.png",
+		 	"options": ["A", "B", "C", "D"],
+		 	"correct": 2
+		},
+		{
+			"image":"slides/math15.png",
+		 	"options": ["A", "B", "C", "D"],
+		 	"correct": 3
+		},
+		{
+			"image":"slides/math17.png",
+		 	"options": ["A", "B", "C", "D"],
+		 	"correct": 3
+		},
+		{
+			"image":"slides/math19.png",
+		 	"options": ["A", "B", "C", "D"],
+		 	"correct": 3
+		},
+		{
+			"image":"slides/math21.png",
+		 	"options": ["A", "B", "C", "D"],
+		 	"correct": 1
+		},
+		{
+			"image":"slides/math23.png",
+		 	"options": ["A", "B", "C", "D"],
+		 	"correct": 3
 		},
 		{
 			"image":"slides/slides-page-023.jpg",
@@ -124,30 +232,67 @@ AT_d = `[ {
 		{
 			"image":"slides/slides-page-024.jpg",
 		 	"options": ["&#10095"],
-		 	"correct": -1},
+		 	"correct": -1
+		},
 		{
-			"image":"slides/slides-page-025.jpg",
+			"image":"slides/math4.png",
 		 	"options": ["A", "B", "C", "D"],
-		 	"correct": 1},
-		{
-			"image": "slides/slides-page-026.jpg",
-			"options": ["A", "B", "C", "D"],
-			"correct": 0
+		 	"correct": 2
 		},
 		{
-			"image": "slides/slides-page-027.jpg",
-			"options": ["A", "B", "C", "D"],
-			"correct": 2
+			"image":"slides/math6.png",
+		 	"options": ["A", "B", "C", "D"],
+		 	"correct": 0
 		},
 		{
-			"image": "slides/slides-page-028.jpg",
-			"options": ["A", "B", "C", "D"],
-			"correct": 2
+			"image":"slides/math8.png",
+		 	"options": ["A", "B", "C", "D"],
+		 	"correct": 0
 		},
 		{
-			"image": "slides/slides-page-029.jpg",
-			"options": ["A", "B", "C", "D"],
-			"correct": 2
+			"image":"slides/math10.png",
+		 	"options": ["A", "B", "C", "D"],
+		 	"correct": 3
+		},
+		{
+			"image":"slides/math12.png",
+		 	"options": ["A", "B", "C", "D"],
+		 	"correct": 2
+		},
+		{
+			"image":"slides/math14.png",
+		 	"options": ["A", "B", "C", "D"],
+		 	"correct": 0
+		},
+		{
+			"image":"slides/math16.png",
+		 	"options": ["A", "B", "C", "D"],
+		 	"correct": 2
+		},
+		{
+			"image":"slides/math18.png",
+		 	"options": ["A", "B", "C", "D"],
+		 	"correct": 1
+		},
+		{
+			"image":"slides/math20.png",
+		 	"options": ["A", "B", "C", "D"],
+		 	"correct": 0
+		},
+		{
+			"image":"slides/math22.png",
+		 	"options": ["A", "B", "C", "D"],
+		 	"correct": 1
+		},
+		{
+			"image":"slides/math24.png",
+		 	"options": ["A", "B", "C", "D"],
+		 	"correct": 2
+		},
+		{
+			"image":"slides/math25.png",
+		 	"options": ["A", "B", "C", "D"],
+		 	"correct": 3
 		},
 		{
 			"image":"slides/slides-page-030.jpg",
